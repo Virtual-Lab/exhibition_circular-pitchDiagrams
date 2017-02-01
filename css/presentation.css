@@ -115,6 +115,18 @@ a.nav, a.nav:link, a.nav:visited, a.nav:hover, a.nav:active {
     text-decoration: none;
     }
 
+a.menu {
+    display: none;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+a.menu:hover {
+    display: block;
+    opacity: 1;
+}
+
 #map {
     position: absolute;
     float: left;
